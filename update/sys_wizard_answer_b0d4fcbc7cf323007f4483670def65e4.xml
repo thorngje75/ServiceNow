@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Loaner Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Loaner Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">2a808e65b52313007f4453da95465b59</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-20 16:17:51</sys_created_on>
+        <sys_id>b0d4fcbc7cf323007f4483670def65e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">26b9203c7cf323007f4483670def65dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">26b9203c7cf323007f4483670def65dd</sys_scope>
+        <sys_update_name>sys_wizard_answer_b0d4fcbc7cf323007f4483670def65e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-20 16:17:51</sys_updated_on>
+        <table/>
+        <target_url>x_cdltd_loaner_req_loaner_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
