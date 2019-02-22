@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Deployment Prep</comment>
+        <compiled_snapshot display_value="Create Task">2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Loaner Laptop">83afbe457cbb23007f4483670def6506</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-21 21:02:59</sys_created_on>
+        <sys_id>5fafbe457cbb23007f4483670def6531</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">26b9203c7cf323007f4483670def65dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">26b9203c7cf323007f4483670def65dd</sys_scope>
+        <sys_update_name>sys_hub_action_instance_5fafbe457cbb23007f4483670def6531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-21 22:11:27</sys_updated_on>
+        <ui_id>5d11df88-0ca3-4e61-820f-7cb21a13c5bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5fafbe457cbb23007f4483670def6531"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fafbe457cbb23007f4483670def6531</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-21 21:02:59</sys_created_on>
+        <sys_id>dfafbe457cbb23007f4483670def6536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-21 21:02:59</sys_updated_on>
+        <value>priority=3^short_description=Prepare laptop for deployment</value>
+        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fafbe457cbb23007f4483670def6531"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>5fafbe457cbb23007f4483670def6531</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-21 21:02:59</sys_created_on>
+        <sys_id>5fafbe457cbb23007f4483670def6536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-21 21:02:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>5fafbe457cbb23007f4483670def6531</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-21 21:02:59</sys_created_on>
+        <sys_id>9bafbe457cbb23007f4483670def6536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-21 21:02:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+</record_update>
