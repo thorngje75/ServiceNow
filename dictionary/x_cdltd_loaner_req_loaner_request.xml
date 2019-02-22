@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true,barcode=true" label="Asset barcode" max_length="40" name="asset_barcode" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="sc" label="Depot" max_length="40" name="depot" type="string">
             <choice>
-                <element inactive_on_update="false" label="New Your" sequence="0" value="ny"/>
+                <element inactive_on_update="false" label="New York" sequence="0" value="ny"/>
                 <element inactive_on_update="false" label="London" sequence="1" value="london"/>
                 <element inactive_on_update="false" label="Buenos Aires" sequence="2" value="ba"/>
                 <element inactive_on_update="false" label="Santa Clara" sequence="3" value="sc"/>
